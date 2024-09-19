@@ -1,6 +1,8 @@
 # Project Overview
 This project involves analyzing a credit card transaction dataset to detect fraudulent transactions. The analysis includes data preprocessing, exploratory data analysis (EDA), and the application of various machine learning models to predict fraudulent transactions.
 
+[Kaggle Link](https://www.kaggle.com/code/mehmetsolak0/gaihub-ml-credit-card-fraud-detection)
+
 ## Libraries Used
 
 The following libraries were used in this project:
