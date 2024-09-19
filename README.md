@@ -1,5 +1,4 @@
 # Project Overview
-
 This project involves analyzing a credit card transaction dataset to detect fraudulent transactions. The analysis includes data preprocessing, exploratory data analysis (EDA), and the application of various machine learning models to predict fraudulent transactions.
 
 ## Libraries Used
@@ -44,11 +43,12 @@ Split the data into training and testing sets using `train_test_split` from scik
 
 ## Machine Learning Models
 
-Three different classifiers were set up using scikit-learn:
+Four different classifiers were set up using scikit-learn:
 
 1. **Logistic Regression**: `LogisticRegression()`
 2. **Decision Tree Classifier**: `DecisionTreeClassifier()`
 3. **K-Nearest Neighbors Classifier**: `KNeighborsClassifier()`
+4. **Gaussian Mixture Model**: `GaussianMixture()`
 
 ### Model Training and Evaluation
 - Each classifier was trained using the training data (`X_train` and `y_train`).
@@ -76,4 +76,3 @@ The results of the model evaluations, including accuracy, precision, recall, and
 ### Performance Evaluation
 
 Based on the evaluation metrics, the **K-Nearest Neighbors Classifier** performed the best overall, with the highest accuracy, confusion matrix and F1-score. Given the imbalanced nature of the dataset, precision and recall were particularly important metrics. Therefore, the K-Nearest Neighbors Classifier was selected as the final model for detecting fraudulent transactions.
-
